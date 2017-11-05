@@ -2,10 +2,7 @@ package com.example.myveryfirstapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.method.LinkMovementMethod;
-import android.widget.TextView;
 
-import java.util.ArrayList;
 
 public class LocationsPage extends AppCompatActivity {
 
