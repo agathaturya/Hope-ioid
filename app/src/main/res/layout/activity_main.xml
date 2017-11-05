@@ -15,7 +15,7 @@
         android:ems="10"
         android:hint="Name"
         android:inputType="textPersonName"
-        android:text=""
+        android:textColor="#ffffff"
         android:textStyle="bold"
         android:textColorHint="#A34EFF"
         app:layout_constraintLeft_toLeftOf="parent"

@@ -12,11 +12,6 @@ public class LocationsOfHelpCenters extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //TextView textView =(TextView)findViewById(R.id.drugRehabLink);
-        //textView.setClickable(true);
-//        textView.setMovementMethod(LinkMovementMethod.getInstance());
-//        String text = "<a href='http://www.drugrehab.com'> Drug Rehab </a>";
-//        textView.setText(Html.fromHtml(text));
         setContentView(R.layout.activity_locations_page);
     }
     public void findLocations(){
