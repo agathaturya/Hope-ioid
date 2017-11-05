@@ -16,6 +16,7 @@
         android:hint="Name"
         android:inputType="textPersonName"
         android:text=""
+        android:textStyle="bold"
         android:textColorHint="#A34EFF"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
