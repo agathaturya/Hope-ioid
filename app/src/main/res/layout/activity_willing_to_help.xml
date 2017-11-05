@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/waysToHelpPrompt"
-        android:layout_width="203dp"
-        android:layout_height="94dp"
+        android:layout_width="323dp"
+        android:layout_height="70dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginTop="16dp"
@@ -20,20 +20,20 @@
         android:gravity="center"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="46dp" />
 
     <TextView
         android:id="@+id/firstHelpLink"
-        android:layout_width="388dp"
-        android:layout_height="49dp"
+        android:layout_width="355dp"
+        android:layout_height="389dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginTop="-10dp"
         android:gravity="center"
-        android:text="https://rehab-international.org/opiate-addiction/warning-signs"
-        android:textSize="16sp"
+        android:text="How it starts\n-Opiates are prescribed by doctors without looking at a patient's history throughly\n-Opiates work very quickly to diminish anxiety and depression\n-Patients soon become dependent and use it to block emotional pain\n-The body builds up tolerance and addiction starts"
+        android:textSize="20sp"
+        android:textColor="#BCCFD1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/waysToHelpPrompt"
-        app:layout_constraintHorizontal_bias="0.555" />
+        tools:layout_editor_absoluteY="198dp" />
 </android.support.constraint.ConstraintLayout>
