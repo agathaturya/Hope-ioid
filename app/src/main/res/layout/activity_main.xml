@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#5ACDFF"
     tools:context="com.example.myveryfirstapp.MainActivity">
 
     <EditText
@@ -15,6 +16,7 @@
         android:hint="Name"
         android:inputType="textPersonName"
         android:text=""
+        android:textColorHint="#A34EFF"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="16dp" />
@@ -27,6 +29,8 @@
         android:layout_marginRight="16dp"
         android:onClick="sendMessage"
         android:text="Enter"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#E83BCE"
         app:layout_constraintBaseline_toBaselineOf="@+id/editName"
         app:layout_constraintLeft_toRightOf="@+id/editName"
         app:layout_constraintRight_toRightOf="parent"
@@ -37,12 +41,13 @@
         android:id="@+id/introParagraph"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="99dp"
         android:gravity="center"
         android:text="Hello! Join us to end the opioid epidemic by finding resources and becoming a proactive ally, or find ways to end your addiction."
-        android:textColor="@android:color/holo_blue_dark"
-        android:textSize="18sp"
-        app:layout_constraintHorizontal_bias="0.577"
+        android:textColor="#FF7A6F"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
