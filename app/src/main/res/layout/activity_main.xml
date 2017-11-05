@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myveryfirstapp.MainActivity">
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="240dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="sendMessage"
+        android:text="Enter"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editName"
+        app:layout_constraintLeft_toRightOf="@+id/editName"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:text="@string/button_send"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+    <TextView
+        android:id="@+id/introParagraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="Hello! Join us to end the opioid epidemic by finding resources and becoming a proactive ally, or find ways to end your addiction."
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editName" />
+</android.support.constraint.ConstraintLayout>

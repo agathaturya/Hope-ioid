@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myveryfirstapp.WillingToHelpActivity">
+
+    <TextView
+        android:id="@+id/waysToHelpPrompt"
+        android:layout_width="203dp"
+        android:layout_height="94dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Great! Here are some ways to get started:"
+        android:textSize="18sp"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/firstHelpLink"
+        android:layout_width="388dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="-10dp"
+        android:gravity="center"
+        android:text="https://rehab-international.org/opiate-addiction/warning-signs"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/waysToHelpPrompt"
+        app:layout_constraintHorizontal_bias="0.555" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myveryfirstapp.FirstNavigationPage">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="219dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:text="TextView"
+        android:textSize="25sp"
+        android:typeface="normal"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/helpSeekingBox"
+        android:layout_width="261dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="47dp"
+        android:gravity="center"
+        android:text="Are you"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/seekingHelpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="9dp"
+        android:onClick="helpPage"
+        android:text="Looking for Help?"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helpSeekingBox" />
+
+    <Button
+        android:id="@+id/wantToHelpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="9dp"
+        android:onClick="willingToHelp"
+        android:text="Willing to Help?"
+        app:layout_constraintHorizontal_bias="0.981"
+        app:layout_constraintLeft_toRightOf="@+id/seekingHelpButton"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helpSeekingBox" />
+
+    <TextView
+        android:id="@+id/factsParagraph"
+        android:layout_width="374dp"
+        android:layout_height="72dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="57dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="Fast facts about the opioid epidemic"
+        android:textColor="@android:color/holo_blue_dark"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helpSeekingBox"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="370dp"
+        android:layout_height="76dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="Youth between the ages of 12 and 18 are the most vulnerable"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/factsParagraph"
+        app:layout_constraintVertical_bias="0.008" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="370dp"
+        android:layout_height="113dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="Over 64,000 lives were lost in 2016 alone, due to opioid overdose"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>
